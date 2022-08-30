@@ -19,13 +19,17 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <form onSubmit={search}>
-        <input
-          type="search"
-          plaseholder="Search a word..."
-          onChange={(e) => setKeyword(e.target.value)}
-        />
-      </form>
+      <h1 className="text-center mt-5 ">Dictionary</h1>
+      <section>
+        <form onSubmit={search}>
+          <input
+            type="search"
+            plaseholder="Search a word..."
+            onChange={(e) => setKeyword(e.target.value)}
+          />
+        </form>
+        <div className="hint">suggested words: piano, love, rainbow...</div>
+      </section>
       <Results result={result} />
     </div>
   );

@@ -1,0 +1,78 @@
+.Dictionary section {
+  background: white;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+  margin: 20px 0;
+}
+
+.Dictionary h1 {
+  font-size: 72px;
+  letter-spacing: 3px;
+  font-family: monospace;
+}
+
+.Dictionary input {
+  width: 100%;
+  border-radius: 6px;
+  padding: 6px 10px;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+.hint {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.Results h2 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.Phonetic {
+  height: 60px;
+  position: relative;
+  margin: 20px 0;
+}
+
+.Phonetic .text {
+  opacity: 0.5;
+  font-weight: bold;
+  font-size: 24px;
+  position: absolute;
+  top: 7px;
+  margin-left: 30px;
+}
+
+.Meaning h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.Meaning .definition-inner {
+  margin-top: 10px;
+}
+
+.Example {
+  color: #70757a;
+  font-style: italic;
+}
+
+.Synonyms {
+  margin: 15px 0 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Synonyms li {
+  font-size: 13px;
+  display: inline-block;
+  padding-right: 15px;
+}
