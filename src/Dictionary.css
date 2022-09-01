@@ -1,5 +1,5 @@
 .Dictionary section {
-  background: white;
+  background: #ffdae1;
   padding: 30px;
   border-radius: 6px;
   box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
@@ -9,7 +9,10 @@
 .Dictionary h1 {
   font-size: 72px;
   letter-spacing: 3px;
-  font-family: monospace;
+  font-family: "Bungee", cursive;
+  color: #d5c7ff;
+  -webkit-text-stroke: 3px #000;
+  text-shadow: 5px 5px 0px #000;
 }
 
 .Dictionary h2 {
