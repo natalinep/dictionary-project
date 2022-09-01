@@ -6,7 +6,6 @@ export default function Photos(props) {
       <section className="Photos">
         <div className="row">
           {props.photos.map((photo, index) => {
-            console.log(photo);
             if (index < 9) {
               return (
                 <div className="col-4" key={index}>
