@@ -12,6 +12,12 @@
   font-family: monospace;
 }
 
+.Dictionary h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
 .Dictionary input {
   width: 100%;
   border-radius: 6px;
@@ -59,6 +65,7 @@
 .Example {
   color: #70757a;
   font-style: italic;
+  margin-top: 10px;
 }
 
 .Synonyms {
@@ -74,5 +81,6 @@ ul {
 .Synonyms li {
   font-size: 13px;
   display: inline-block;
-  padding-right: 15px;
+  padding-right: 10px;
+  line-height: 1;
 }

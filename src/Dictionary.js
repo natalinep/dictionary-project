@@ -22,6 +22,7 @@ export default function Dictionary() {
       <h1 className="text-center mt-5 ">Dictionary</h1>
       <section>
         <form onSubmit={search}>
+          <h2>What word do you want to look up?</h2>
           <input
             type="search"
             plaseholder="Search a word..."
