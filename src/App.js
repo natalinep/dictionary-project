@@ -12,6 +12,8 @@ export default function App() {
           <a
             href="https://github.com/natalinep/dictionary-project"
             title="GitHub repository"
+            target="_blank"
+            rel="noreferrer noopener"
           >
             open-sourced
           </a>

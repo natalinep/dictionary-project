@@ -84,3 +84,8 @@ ul {
   padding-right: 10px;
   line-height: 1;
 }
+
+.Photos img {
+  border-radius: 4px;
+  margin: 10px 0;
+}
